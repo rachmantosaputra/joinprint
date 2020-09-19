@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.2.1)
+  - AnyErrorKit (0.1.4)
+  - JSON (5.0.0)
+  - JSONModel (1.8.0)
+  - JSONParsing (0.2.1):
+    - AnyErrorKit (~> 0.1.1)
+    - SwiftyJSON (~> 4.0)
+  - JSONUtilities (6.0.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - JSON
+  - JSONModel
+  - JSONParsing
+  - JSONUtilities
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AnyErrorKit
+    - JSON
+    - JSONModel
+    - JSONParsing
+    - JSONUtilities
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  AnyErrorKit: 6083091402347e82158c4e6e565680bdd4d1928c
+  JSON: 93622160a062588b4cd3497b77ccd777f1fd0587
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  JSONParsing: 042f0e156c69002af7092084f3b9822867270b3d
+  JSONUtilities: 09667c12a438532917bbd60503210fdacb6674e6
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 3b367685cfe62ce63b327f7e5c6bc7e3a05510bb
+
+COCOAPODS: 1.9.3

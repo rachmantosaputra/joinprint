@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681FBAB311856C9F97202852 /* Pods_joinprint_joinprintUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076A236058F4CB03EE79FFA4 /* Pods_joinprint_joinprintUITests.framework */; };
 		6933363925159B6A008F5313 /* joinprintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933363825159B6A008F5313 /* joinprintApp.swift */; };
 		6933363B25159B6A008F5313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933363A25159B6A008F5313 /* ContentView.swift */; };
 		6933363D25159B6D008F5313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6933363C25159B6D008F5313 /* Assets.xcassets */; };
 		6933364025159B6D008F5313 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6933363F25159B6D008F5313 /* Preview Assets.xcassets */; };
 		6933364B25159B6E008F5313 /* joinprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933364A25159B6E008F5313 /* joinprintTests.swift */; };
 		6933365625159B6E008F5313 /* joinprintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933365525159B6E008F5313 /* joinprintUITests.swift */; };
+		97F7A873DFE6AF88E4233E55 /* Pods_joinprintTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345EE9679291BB22F046FA4E /* Pods_joinprintTests.framework */; };
+		D3D2EC3AF283AB7AAE953E0E /* Pods_joinprint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E42C8B67CE08209499F4A0 /* Pods_joinprint.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076A236058F4CB03EE79FFA4 /* Pods_joinprint_joinprintUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_joinprint_joinprintUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1711ACD02B424065EE93BD37 /* Pods-joinprintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joinprintTests.debug.xcconfig"; path = "Target Support Files/Pods-joinprintTests/Pods-joinprintTests.debug.xcconfig"; sourceTree = "<group>"; };
+		345EE9679291BB22F046FA4E /* Pods_joinprintTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_joinprintTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582544677F4038ED4FFBB8BB /* Pods-joinprint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joinprint.release.xcconfig"; path = "Target Support Files/Pods-joinprint/Pods-joinprint.release.xcconfig"; sourceTree = "<group>"; };
+		681A846496BE91AA5A112732 /* Pods-joinprint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joinprint.debug.xcconfig"; path = "Target Support Files/Pods-joinprint/Pods-joinprint.debug.xcconfig"; sourceTree = "<group>"; };
 		6933363525159B6A008F5313 /* joinprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joinprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6933363825159B6A008F5313 /* joinprintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joinprintApp.swift; sourceTree = "<group>"; };
 		6933363A25159B6A008F5313 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,10 @@
 		6933365125159B6E008F5313 /* joinprintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = joinprintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6933365525159B6E008F5313 /* joinprintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joinprintUITests.swift; sourceTree = "<group>"; };
 		6933365725159B6E008F5313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B8DF5E93A5E79850728445 /* Pods-joinprint-joinprintUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joinprint-joinprintUITests.debug.xcconfig"; path = "Target Support Files/Pods-joinprint-joinprintUITests/Pods-joinprint-joinprintUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93E42C8B67CE08209499F4A0 /* Pods_joinprint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_joinprint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55183842FE00AE2E215274C /* Pods-joinprintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joinprintTests.release.xcconfig"; path = "Target Support Files/Pods-joinprintTests/Pods-joinprintTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6A542067BBF059EA9F5A7C2 /* Pods-joinprint-joinprintUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joinprint-joinprintUITests.release.xcconfig"; path = "Target Support Files/Pods-joinprint-joinprintUITests/Pods-joinprint-joinprintUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D2EC3AF283AB7AAE953E0E /* Pods_joinprint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F7A873DFE6AF88E4233E55 /* Pods_joinprintTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681FBAB311856C9F97202852 /* Pods_joinprint_joinprintUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5996BCA62A668C95A928DC72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E42C8B67CE08209499F4A0 /* Pods_joinprint.framework */,
+				076A236058F4CB03EE79FFA4 /* Pods_joinprint_joinprintUITests.framework */,
+				345EE9679291BB22F046FA4E /* Pods_joinprintTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6933362C25159B6A008F5313 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +104,8 @@
 				6933364925159B6E008F5313 /* joinprintTests */,
 				6933365425159B6E008F5313 /* joinprintUITests */,
 				6933363625159B6A008F5313 /* Products */,
+				ECE119418C5B3DE9204B879F /* Pods */,
+				5996BCA62A668C95A928DC72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +157,20 @@
 			path = joinprintUITests;
 			sourceTree = "<group>";
 		};
+		ECE119418C5B3DE9204B879F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				681A846496BE91AA5A112732 /* Pods-joinprint.debug.xcconfig */,
+				582544677F4038ED4FFBB8BB /* Pods-joinprint.release.xcconfig */,
+				91B8DF5E93A5E79850728445 /* Pods-joinprint-joinprintUITests.debug.xcconfig */,
+				E6A542067BBF059EA9F5A7C2 /* Pods-joinprint-joinprintUITests.release.xcconfig */,
+				1711ACD02B424065EE93BD37 /* Pods-joinprintTests.debug.xcconfig */,
+				E55183842FE00AE2E215274C /* Pods-joinprintTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6933365A25159B6E008F5313 /* Build configuration list for PBXNativeTarget "joinprint" */;
 			buildPhases = (
+				CA0C8DDA75FF8AC8E67C8C18 /* [CP] Check Pods Manifest.lock */,
 				6933363125159B6A008F5313 /* Sources */,
 				6933363225159B6A008F5313 /* Frameworks */,
 				6933363325159B6A008F5313 /* Resources */,
@@ -154,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6933365D25159B6E008F5313 /* Build configuration list for PBXNativeTarget "joinprintTests" */;
 			buildPhases = (
+				188C02CFC6040292560D8689 /* [CP] Check Pods Manifest.lock */,
 				6933364225159B6E008F5313 /* Sources */,
 				6933364325159B6E008F5313 /* Frameworks */,
 				6933364425159B6E008F5313 /* Resources */,
@@ -172,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6933366025159B6E008F5313 /* Build configuration list for PBXNativeTarget "joinprintUITests" */;
 			buildPhases = (
+				81D6D414266787DE6816362D /* [CP] Check Pods Manifest.lock */,
 				6933364D25159B6E008F5313 /* Sources */,
 				6933364E25159B6E008F5313 /* Frameworks */,
 				6933364F25159B6E008F5313 /* Resources */,
+				07B366B8305F0C5E8259CB1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +298,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07B366B8305F0C5E8259CB1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-joinprint-joinprintUITests/Pods-joinprint-joinprintUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-joinprint-joinprintUITests/Pods-joinprint-joinprintUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-joinprint-joinprintUITests/Pods-joinprint-joinprintUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		188C02CFC6040292560D8689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-joinprintTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D6D414266787DE6816362D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-joinprint-joinprintUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0C8DDA75FF8AC8E67C8C18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-joinprint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6933363125159B6A008F5313 /* Sources */ = {
@@ -414,6 +545,7 @@
 		};
 		6933365B25159B6E008F5313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681A846496BE91AA5A112732 /* Pods-joinprint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +567,7 @@
 		};
 		6933365C25159B6E008F5313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582544677F4038ED4FFBB8BB /* Pods-joinprint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +589,7 @@
 		};
 		6933365E25159B6E008F5313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1711ACD02B424065EE93BD37 /* Pods-joinprintTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +611,7 @@
 		};
 		6933365F25159B6E008F5313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55183842FE00AE2E215274C /* Pods-joinprintTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +633,7 @@
 		};
 		6933366125159B6E008F5313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B8DF5E93A5E79850728445 /* Pods-joinprint-joinprintUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +653,7 @@
 		};
 		6933366225159B6E008F5313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A542067BBF059EA9F5A7C2 /* Pods-joinprint-joinprintUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-joinprint-joinprintUITests/Pods-joinprint-joinprintUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AnyErrorKit/AnyErrorKit.framework
+${BUILT_PRODUCTS_DIR}/JSON/JSON.framework
+${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework
+${BUILT_PRODUCTS_DIR}/JSONParsing/JSONParsing.framework
+${BUILT_PRODUCTS_DIR}/JSONUtilities/JSONUtilities.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

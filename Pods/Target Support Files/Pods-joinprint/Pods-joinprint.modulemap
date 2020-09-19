@@ -1,0 +1,6 @@
+framework module Pods_joinprint {
+  umbrella header "Pods-joinprint-umbrella.h"
+
+  export *
+  module * { export * }
+}
